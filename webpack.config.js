@@ -23,4 +23,14 @@ module.exports = {
             },
         ],
     },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: "pushify-ir-sw.js",
+                    to: path.resolve(__dirname, "dist"),
+                },
+            ],
+        }),
+    ],
 };
