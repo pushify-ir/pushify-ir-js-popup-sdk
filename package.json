@@ -1,6 +1,6 @@
 {
   "name": "@pushify-ir/main",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A JavaScript SDK for integrating push notifications into web applications pushify-ir",
   "main": "dist/index.js",
   "scripts": {

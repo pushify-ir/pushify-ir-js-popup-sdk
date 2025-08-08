@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pushify-ir/pushify-ir-js-popup-sdk/compare/v1.2.0...v1.3.0) (2025-08-08)
+
+
+### Features
+
+* add pushify service worker ([5adb9f1](https://github.com/pushify-ir/pushify-ir-js-popup-sdk/commit/5adb9f1a07ff5a77a683bfc5bb4f8bc243a14234))
+
 # [1.2.0](https://github.com/pushify-ir/pushify-ir-js-popup-sdk/compare/v1.1.2...v1.2.0) (2025-08-08)
 
 
