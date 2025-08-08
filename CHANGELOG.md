@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/pushify-ir/pushify-ir-js-popup-sdk/compare/v1.1.1...v1.1.2) (2025-08-08)
+
+
+### Bug Fixes
+
+* github workflow ([7d005de](https://github.com/pushify-ir/pushify-ir-js-popup-sdk/commit/7d005dec7192338b4da6f14d910cb44ec23b0588))
+
 # 1.0.0 (2025-08-08)
 
 
