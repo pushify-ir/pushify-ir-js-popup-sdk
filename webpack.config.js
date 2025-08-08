@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin"); // <-- missing before
 
 module.exports = {
     entry: "./src/index.js",
