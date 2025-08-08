@@ -17,7 +17,8 @@ class PushFlow {
             "serviceWorker" in navigator && "PushManager" in window;
         this.initialized = false;
         this.subscription = null;
-        this.log("PushFlow SDK initialized");
+        this.platform = config.platform | "WEB";
+        this.log("pushify-ir SDK initialized");
     }
 
     log(message, ...args) {
@@ -138,7 +139,7 @@ class PushFlow {
                     name: userName || `anonymous-${Date.now()}`,
                     subscriberId: this.subscriberId,
                     deviceToken: JSON.stringify(subscription),
-                    platform: "WEB",
+                    platform: this.platform,
                     userAgent: navigator.userAgent,
                     language: navigator.language,
                     timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
