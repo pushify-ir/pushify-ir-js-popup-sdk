@@ -18,7 +18,7 @@ class PushFlow {
         this.initialized = false;
         this.subscription = null;
         this.platform = config.platform | "WEB";
-        this.log("pushify-ir SDK initialized");
+        this.log("pushify-ir SDK initialized!");
     }
 
     log(message, ...args) {
