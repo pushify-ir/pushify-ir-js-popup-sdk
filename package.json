@@ -1,7 +1,7 @@
 {
   "name": "@pushify-ir/main",
   "version": "1.1.0",
-  "description": "A JavaScript SDK for integrating push notifications into web applications",
+  "description": "A JavaScript SDK for integrating push notifications into web applications pushify-ir",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -17,6 +17,10 @@
     "pushify",
     "pushify-ir"
   ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pushify-ir/pushify-ir-js-popup-sdk.git"
+  },
   "author": "mh-nikbakht",
   "license": "AGPL-3.0-only",
   "devDependencies": {
