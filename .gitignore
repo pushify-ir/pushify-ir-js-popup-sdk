@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Temporary files
+*.log
+.DS_Store
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Test coverage reports
+coverage/

@@ -1,0 +1,21 @@
+# Build artifacts
+/dist/
+/build/
+
+# Test files and directories
+/test/
+*.test.js
+*.spec.js
+
+# Documentation
+/docs/
+
+# Development-specific files
+.env
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+
+# Version control files (often already in .gitignore)
+.git/
+.gitignore

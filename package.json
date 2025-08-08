@@ -1,0 +1,33 @@
+{
+  "name": "@pushify-ir/main",
+  "version": "1.1.0",
+  "description": "A JavaScript SDK for integrating push notifications into web applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "push",
+    "notifications",
+    "web",
+    "sdk",
+    "service-worker",
+    "pushify",
+    "pushify-ir"
+  ],
+  "author": "mh-nikbakht",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}
