@@ -7,7 +7,7 @@ self.addEventListener("push", function (event) {
     if (event.data) {
         try {
             const data = event.data.json();
-            console.log("income data is :", data);
+            console.log("income data is:", data);
 
             const options = {
                 body: data.body,
